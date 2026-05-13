@@ -34,4 +34,30 @@ public class ListaInteligente {
     public ArrayList<Elemento> getElementos() {
         return elementos;
     }
+
+    public void eliminarElemento(int posicion) {
+
+        if (posicion >= 0 && posicion < elementos.size()) {
+            elementos.remove(posicion);
+        }
+    }
+
+    public Elemento getElemento(int posicion) {
+
+        if (posicion >= 0 && posicion < elementos.size()) {
+            return elementos.get(posicion);
+        }
+
+        return null;
+    }
+
+    public void editarPuntuacion(int posicion, int nuevaPuntuacion) {
+
+        Elemento elemento = getElemento(posicion);
+
+        if (elemento != null) {
+            elemento.setPuntuacion(nuevaPuntuacion);
+        }
+    }
+
 }
