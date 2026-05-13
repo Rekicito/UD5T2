@@ -1,13 +1,13 @@
 package net.salesianos.ripadbaisor.modelo;
 
-public class elemento {
+public class Elemento {
 
     private String nombre;
     private String categoria;
     private String ubicacion;
     private int puntuacion;
 
-    public elemento(String nombre, String categoria, String ubicacion, int puntuacion) {
+    public Elemento(String nombre, String categoria, String ubicacion, int puntuacion) {
         this.nombre = nombre;
         this.categoria = categoria;
         this.ubicacion = ubicacion;
