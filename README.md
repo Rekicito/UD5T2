@@ -1,18 +1,29 @@
-## Getting Started
+# RipAdbaisor
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Aplicación desarrollada en Java para gestionar un sistema de valoración de elementos mediante ranking.
 
-## Folder Structure
+## Características
 
-The workspace contains two folders by default, where:
+- Añadir elementos
+- Mostrar elementos
+- Editar puntuaciones
+- Eliminar elementos
+- Validación de datos
+- Uso de ArrayList
+- Interfaz gráfica con JOptionPane
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologías utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- Swing
+- Git y GitHub
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estructura del proyecto
 
-## Dependency Management
+- modelo
+- servicios
+- ui
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Autor
+
+Iker Akexander HErrera Felipe
